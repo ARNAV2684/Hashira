@@ -1,0 +1,20 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+polynomial_solver
+a.out
+
+# IDE files
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
