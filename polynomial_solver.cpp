@@ -1,24 +1,4 @@
-/**
- * Polynomial Solver - Shamir's Secret Sharing Implementation
- * 
- * This program solves polynomial coefficients using Shamir's Secret Sharing scheme.
- * It reads test cases in JSON format and uses Lagrange interpolation to find the 
- * constant term (secret) of the polynomial.
- * 
- * Author: GitHub Repository
- * Date: September 2025
- * Version: 2.0
- * 
- * Usage:
- *   ./polynomial_solver                          # Interactive mode with built-in test cases
- *   ./polynomial_solver < input.json            # Read JSON from stdin
- *   ./polynomial_solver input.json              # Read JSON from file
- *   ./polynomial_solver --test                  # Run comprehensive tests
- * 
- * Algorithm: Lagrange Interpolation
- * For a polynomial P(x) of degree m, given k = m + 1 points (x₁, y₁), ..., (xₖ, yₖ):
- * P(0) = Σᵢ₌₁ᵏ yᵢ * Πⱼ₌₁,ⱼ≠ᵢᵏ [(0 - xⱼ) / (xᵢ - xⱼ)]
- */
+
 
 #include <iostream>
 #include <vector>
